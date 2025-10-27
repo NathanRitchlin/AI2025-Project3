@@ -34,7 +34,7 @@ plt.figure()
 bars = plt.bar(labels, values)
 plt.ylim(0, 1)
 plt.xlabel("Amount of Evidence")
-plt.ylabel("Distribution Difference")
+plt.ylabel("Distribution Error")
 plt.title(" ")
 for bar, value in zip(bars, values):
     plt.text(
@@ -80,7 +80,7 @@ plt.figure()
 bars = plt.bar(labels, values)
 plt.ylim(0, 1)  # Scale y-axis from 0 to 1
 plt.xlabel("Amount of Evidence")
-plt.ylabel("Average Distribution Difference")
+plt.ylabel("Average Distribution Error")
 plt.title(" ")
 for bar, value in zip(bars, values):
     plt.text(
@@ -162,7 +162,7 @@ plt.figure()
 bars = plt.bar(labels, values)
 plt.ylim(0, 1)  # Scale y-axis from 0 to 1
 plt.xlabel("Problem Evidence Given")
-plt.ylabel("Average Distribution Difference")
+plt.ylabel("Average Distribution Error")
 plt.title(" ")
 for bar, value in zip(bars, values):
     plt.text(
